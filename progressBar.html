@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProgressBar</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+    body {
+      background-image: url(img/barre.jpg);
+    }
+  </style>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/progressBar.css">
+  <link rel="stylesheet" href="css/neon.css">
+  <link rel="stylesheet" href="css/scrollBar.css">
+  <link rel="stylesheet" href="css/neonButton.css">
+
+</head>
+
+<body>
+
+  <!--Scroll Bar-->
+  <div id="progressbar"></div>
+  <div id="scrollPath"></div>
+
+  <!-- Nav Bar-->
+  <nav class="menu" id="sticky">
+    <header>Menu <span>×</span></header>
+    <ol>
+      <li class="menu-item"><a href="index.html">Home</a></li>
+      <li class="menu-item"><a href="progressBar.html">ProgressBar</a></li>
+      <li class="menu-item"><a href="js.html">Code javascript</a></li>
+      <li class="menu-item"><a href="liens.html">Liens Utiles</a></li>
+    </ol>
+    <footer><button aria-label="Toggle Menu">Toggle</button></footer>
+  </nav>
+
+  <!-- Neon Text-->
+  <div class="wrapper">
+    <div class="neon-wrapper">
+      <div class="neon-text">BARRE</div>
+    </div>
+  </div>
+  <br><br>
+
+
+  <!-- Progress Bar-->
+  <div class="centrale">
+    <div id="myProgress">
+      <div id="myBar">0%</div>
+    </div>
+  </div>
+
+
+
+  <div class="buttonCenter">
+    <!--sur le click du boutons on éxécute avec js la fonction move()-->
+    <a class="neonButton" href="#" onclick="move()">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Clique Moi
+    </a>
+
+  </div>
+
+
+  <!-- Javascript -->
+  <script src="javascript/scrollBar.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="javascript/main.js"></script>
+  <script src="javascript/progressBar.js"></script>
+</body>
+
+</html>

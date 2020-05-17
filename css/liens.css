@@ -1,0 +1,14 @@
+p {
+  text-align: center;
+}
+
+.liens {
+  color: red;
+  font-size: 4vh;
+  letter-spacing: 6px;
+  padding-top: 10vh;
+}
+
+.div-liens {
+  padding-bottom: 10vh;
+}
